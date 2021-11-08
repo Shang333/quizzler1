@@ -66,10 +66,10 @@ class _QuizPageState extends State<QuizPage> {
     if (questionNum == questions.length - 1) {
       Alert(
         context: context,
-        type: AlertType.info,
+        //type: AlertType.info,
         title: "Finished!",
         desc: "You've reached the end of the quiz.",
-        //image: Image.asset("assets/success.png"),
+        image: Image.asset("assets/success.png"),
         buttons: [
           DialogButton(
             child: const Text(
